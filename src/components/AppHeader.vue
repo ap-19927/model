@@ -35,4 +35,9 @@ body {
   background-color: #f1e7d0;
   color: #433422;
 }
+img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
 </style>
