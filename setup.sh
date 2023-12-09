@@ -26,6 +26,7 @@ server {
   ssl_certificate_key /etc/letsencrypt/live/\${URI}-0001/privkey.pem;
   include /etc/letsencrypt/options-ssl-nginx.conf;
   ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+  client_max_body_size 10M;
 }
 EOF
 bash letsencrypt-init.sh
