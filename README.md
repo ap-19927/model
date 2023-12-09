@@ -1,3 +1,13 @@
+# [https://model.roadpeoples.com/](https://model.roadpeoples.com/)
+
+Attempts to identify a cat who we call Katja from an uploaded image using a fastai deep learning model.
+
+There are four categories:
+
+`(Maine Coon, cat, isKatja, random thing)`
+
+Please refer to `src/public/python/isKatja.ipynb` for more information regaring how the model was trained and what data it used to train with.
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

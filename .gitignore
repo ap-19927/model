@@ -23,4 +23,7 @@ logs
 .env.*
 !.env.example
 
+# Nginx and Certbot generated files
 data
+
+.ipynb_checkpoints

@@ -32,10 +32,10 @@ const slideToPredict = async () => {
 
 <template>
 <div>
-  <h1>predict</h1>
-    <label>Select Image</label>
-    <input type="file" @change="handleFileSelection($event)" />
-    <button @click="slideToPredict"> Submit </button>
+  <h1>Attempts to identify a cat who we call Katja.</h1>
+  <label>Select Image</label>
+  <input type="file" @change="handleFileSelection($event)" />
+  <button @click="slideToPredict"> Submit </button>
   <br>
   <pre>Prediction: {{ prediction }}</pre>
   <img :src="url"/>
